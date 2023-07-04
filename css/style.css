@@ -1,0 +1,137 @@
+/*
+ * Basic CSS starts 
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+
+body {
+	color: #252c37;
+	background-color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #ccc;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: solid 0.2px rgb(255, 255, 255);
+}
+
+.logo img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 100px;
+	width: 500px;
+}
+
+
+.upload {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.upload input[type="file"] {
+	display: none;
+}
+
+.upload label {
+	margin-right: 10px;
+	font-size: 4rem;
+	color: #ddd;
+}
+
+.upload a {
+	padding: 10px 5px;
+	font-size: 2rem;
+}
+
+/* content */
+
+.content {
+	height: 100vh;
+	margin-top: 2rem;
+}
+
+
+.hero .hero-content {
+	text-align: center;
+}
+
+.hero-content h2 {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-size: 45px;
+}
+
+.hero-content hr {
+	max-width: 450px;
+	margin: 20px auto;
+	border-top: 1px solid #ddd;
+}
+
+.hero-content p {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.hero-game {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.hero-game .figure {
+	position: relative;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.recomendacao-content  {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+}
+
+.figure {
+	width: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

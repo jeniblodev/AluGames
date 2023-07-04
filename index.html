@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-color.css" rel="stylesheet">
+    <title>Jogos recomendados 🎮</title>
+</head>
+
+<body>
+    <header>
+        <div class="upload">
+            <div class="logo">
+                <img src="img/logo/alugames.png"/>
+            </div>
+            <label for="jsonFile">🎮 Clique aqui e carregue seu JSON </label>
+            <input type="file" id="jsonFile">
+            <a href="#content" type="button" onclick="uploadFile()">Enviar</a>
+        </div>
+    </header>
+    <main>
+        <section id="content">
+            <div id="latestgame" class="hero pad">
+                <div class="container">
+                    <div class="hero-content ">
+                        <h2>Aqui estão os jogos que você recomendou 🎮</h2>
+                    </div>
+                    <!-- hero game -->
+                    <div class="hero-game">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="recomendacao-content" id="recomendacao-content">
+                                    <div class="col-md-6 col-sm-6">
+                                        <!-- logo image -->
+                                        <div class="figure">
+                                            <img class="img-responsive" src="img/logo/alugames.png" alt="" /> 
+                                            <img class="img-responsive" src="img/banner/cat.png" alt="" />  
+                                        </div>
+                                    </div>
+                                    <!-- <ul class="list-unstyled">
+                                        <li class="playlist-number">
+                                            <div class="song-info">
+                                                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466"/>
+                                                <h4>Teste</h4>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
